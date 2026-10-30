@@ -1,0 +1,9 @@
+str, n = input().strip().split(' ')
+n = int(n)
+
+for i in range(n):
+    print(str, end='')
+
+//end=''는 출력한 뒤 줄바꿈을 하지 말라는 뜻
+//*연산자를 사용했으면 더 좋았을것
+//print(str * n)
